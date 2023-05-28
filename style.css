@@ -5,6 +5,13 @@
     width: 75px;
 }
 
+.header img{
+    height: 300px;
+    width: auto;
+}
+h1{
+    display: inline-block;
+}
 .menu{
     display: inline-block;
     width: 100%;
@@ -23,7 +30,6 @@
 .menu ul li a:hover{
     background-color: black;
     color: white;
-
 }
 
 .menu > li{
@@ -35,4 +41,9 @@
     border: 2.5px;
     margin: 10px;
     display: block;
+    border-radius: 5px;
+}
+
+.Copyleft{
+    width: 15PX;
 }

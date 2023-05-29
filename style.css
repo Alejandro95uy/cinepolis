@@ -57,8 +57,7 @@ h1{
 
 /*Segunda fila*/
 .banner {
-    width: auto;
-    background-image: url("img/banner.png");
+    align-items: center;
 }
 /*Tercera fila*/
 .area-texto{

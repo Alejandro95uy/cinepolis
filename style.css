@@ -1,5 +1,6 @@
-*{
-    background-color: gainsboro;
+body{
+    background-image: url(img/backgrounds-star-wars.jpeg);
+    background-position: center;
 }
 
 /*Primera fila*/
@@ -16,6 +17,7 @@
 }
 
 h1{
+    color: white;
     display: inline-block;
     font-size: medium;
 }
@@ -32,15 +34,15 @@ h1{
 }
 
 .menu ul a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .menu ul li a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .menu > li{
@@ -70,8 +72,8 @@ h1{
 
 /*Cuarta fila*/
 .caja{
-    border-color: black;
-    border: 5px;
+    border-color: white;
+    border: 50px;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -96,4 +98,12 @@ h1{
 /*Quinta fila*/
 .Copyleft{
     width: 15PX;
+}
+
+p {
+    color: white;
+}
+
+h2{
+    color: white;
 }
